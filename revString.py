@@ -4,7 +4,4 @@
 # Python code
 
 str = "goGirlCoder"
-rev = ""
-for i in str:
-    rev = i + rev
-print(rev)
+print(str[::-1])
